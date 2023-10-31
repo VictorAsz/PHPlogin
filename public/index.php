@@ -12,7 +12,7 @@ $rota = $_GET['rota'] ?? 'home';
 
 //verifica se o usuario está logado
 
-if(!isset($_SESSION['usuario'])){
+if(!isset($_SESSION['usuario']) && $rota !== 'login_submit'){
     $rota = "login";
 }
 
@@ -36,6 +36,10 @@ switch ($rota) {
     case 'login':
         $script = 'login.php';
         break;
+    case 'login_submit';
+        $script = 'login_submit.php';
+
+        break;
     case 'home':
         $script = 'home.php';
         break;
@@ -45,7 +49,7 @@ switch ($rota) {
 require_once __DIR__ . "/../inc/config.php";
 require_once __DIR__ . "/../inc/database.php";
 
-
+//teste
 
 // apresentação da página 
 require_once __DIR__ . "/../inc/header.php";

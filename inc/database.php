@@ -10,11 +10,20 @@ class database{
             $stmt-> execute($params);
 
             $results = $stmt->fetchAll(PDO::FETCH_CLASS);
+            return [
+                'status' => 'success',
+                'data' => $results
+
+            ];
             
             //conexão e comunicação com a bd
             //devolver resultado
 
         } catch (\PDOException $err) {
+                        return [
+              'status' => 'error',
+              'message' => $err->getMessage()
+            ];
 
             //devolver o erro
 
