@@ -43,6 +43,9 @@ switch ($rota) {
     case 'home':
         $script = 'home.php';
         break;
+    case 'logout':
+        $script = 'logout.php';
+         break;
 }
 
 //carregamentoo de scripts permanentes
