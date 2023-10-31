@@ -31,7 +31,10 @@ $erro = $_SESSION['erro'] ?? null
                 </form>
 
                 <?php if (!empty($erro)): ?>
-            
+                    <div class="alert alert-danger mb-3 p-2 text-center">
+                        <?= $erro ?>
+                    </div>
+                <?php endif; ?>
             </div>
         </div>
     </div>
