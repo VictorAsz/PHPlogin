@@ -5,8 +5,8 @@ require_once __DIR__ . '/../inc/navbar.php';
 <div class="container mt-5">
     <div class="row">
         <div class="col">
-            <h4>home</h4>
-            <p class="mt-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto veniam placeat quos reiciendis dicta blanditiis itaque ducimus pariatur, delectus ex nisi. Minus consectetur reprehenderit soluta quae repellat voluptatum dignissimos illo?
+            <h4>PAGE 2</h4>
+            <p class="mt-5">PAGE2Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto veniam placeat quos reiciendis dicta blanditiis itaque ducimus pariatur, delectus ex nisi. Minus consectetur reprehenderit soluta quae repellat voluptatum dignissimos illo?
             Optio iste dolore debitis hic facilis nisi architecto ad omnis quidem itaque quod minima vero saepe unde, aspernatur atque eaque illo sapiente obcaecati ea libero alias est. Est, adipisci ex.
             Possimus, officia ab hic perspiciatis corrupti necessitatibus accusamus nostrum quo impedit architecto sunt dignissimos non deleniti, modi consequatur dolor soluta repellendus? Perspiciatis id dicta, ex accusamus provident praesentium molestiae ut.
             Dolore, dignissimos? Nemo iure dolores mollitia sed facere saepe non incidunt corrupti doloribus, ab earum tempore consequuntur libero repellat est culpa? Suscipit laudantium enim placeat eaque sit id, atque laborum!
